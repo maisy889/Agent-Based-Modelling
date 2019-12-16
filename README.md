@@ -11,12 +11,18 @@ The aim of the assignment was to create an agent-based model that simulates ‘s
 # Files
 
 The files needed to run the model are as follows:
+
 •	Model_User (operational model)
+
 •	Agentframework
+
 •	In.text
+
 •	Model_Developer (model with issues)
+
 •	Agentframework_Developer 
-This project is licensed under the GNU General Public License v.3.0 - see [here] (https://github.com/maisy889/Agent-Based-Modelling/blob/master/LICENSE)
+
+This project is licensed under the GNU General Public License v.3.0 - see [here](https://github.com/maisy889/Agent-Based-Modelling/blob/master/LICENSE)
 
 # Setup
 
@@ -38,13 +44,21 @@ The General User Interface (GUI) was created using tkinter. This allowed the add
 
 # Operation guide – User Model
 It is recommended that you run this model in Spyder (Anaconda 3) and the following instructions are for this software. 
+
 Firstly, download the above files (Model_Developer and Agentframework_Developer optional) from the GitHub repository. Ensure that all files are stored within the same folder. 
+
 Open both the agentframework.py and Model_User.py within Python. To ensure that the animation runs correctly, you need to set the Graphics option to Tkinter. You can do this by selecting: Tools > Preferences > IPython Console > Graphics, and then from the drop-down select Tkinter.
+
 Run the agentframework file first, and once this has completed run the model file. This will pop out a window in which your animation will run. 
+
 To change and set the number of sheep, firstly set the slider to the desired number then press ‘Set number’. Then to run the model, click ‘Run Model’ below the animation screen. When the model has finished running or if you want to close the model early, click ‘Close Model’.
 
 # Operation guide – Developer Model
-If you have downloaded the developer files, you will see that is has an additional class within the agentframework_Developer – Wolves. Follow the first two steps of the Operation Guide (above) but then run the agentframework_Developer.py file, then the 
+
+If you have downloaded the developer files, you will see that is has an additional class within the agentframework_Developer – Wolves. 
+
+Follow the first two steps of the Operation Guide (above) but then run the agentframework_Developer.py file, then the 
 You will see that there is an additional slider to set the number of wolves for the simulation. Set both values before running the model, as per the above instructions. The model will then run in a pop out window and you will see the addition of black ‘wolves’ within the environment.
+
 The aim was to have the wolves ‘eat’ and remove the sheep from the model, however in its current state this is unable to happen and the relevant bit of code within the model for the wolves ‘eat’ function is commented out. 
 
