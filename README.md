@@ -24,11 +24,11 @@ The environment was created by inputting a csv file with values between 0 to 255
 
 The agents (aka ‘Sheep’) have been designed to interact with their environment and each other. This includes the following functions:
 
-    •	Move – The sheep are originally plotted from a set of coordinates scraped from a webpage. After this they are able to move in random directions.
+   •	Move – The sheep are originally plotted from a set of coordinates scraped from a webpage. After this they are able to move in random directions.
 
-    •	Eat – The sheep are able to ‘eat’ their environment and put what they eat in a store. The amount the can eat and store is dependant of how much they move. The more that they move, the maximum amount they are able to eat is reduced. The total amount they then eat is impacted by their metabolism, which is also determined by the total distance moved by an sheep within one cycle of the animation. Once the total amount eaten is calculated is it added to the sheep’s total store. 
+   •	Eat – The sheep are able to ‘eat’ their environment and put what they eat in a store. The amount the can eat and store is dependant of how much they move. The more that they move, the maximum amount they are able to eat is reduced. The total amount they then eat is impacted by their metabolism, which is also determined by the total distance moved by an sheep within one cycle of the animation. Once the total amount eaten is calculated is it added to the sheep’s total store. 
 
-    •	Share with neighbours – When sheep are within a certain distance of another sheep, their total stores are combined and then divided equally between the two sheep. 
+   •	Share with neighbours – When sheep are within a certain distance of another sheep, their total stores are combined and then divided equally between the two sheep. 
 
 A condition has been set so that when all sheep have a total store of 500, the animation will stop. 
 
