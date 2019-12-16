@@ -5,7 +5,7 @@ More information about this can be found at: https://maisy889.github.io
 
 # Overview
 
-The agent-based model has been created in Spyder (Anaconda 3) on Windows using Python coding language 3.7.
+The agent-based model has been created in [Spyder (Anaconda 3)](https://www.anaconda.com/distribution/) on Windows using Python coding language 3.7.
 The aim of the assignment was to create an agent-based model that simulates ‘sheep’ (agents) grazing within an environment. 
 
 # Files
