@@ -1,4 +1,4 @@
-#Importing all functions#
+#Importing Libraries#
 
 import random
 import matplotlib
